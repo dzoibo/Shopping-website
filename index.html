@@ -5,15 +5,146 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VITE APP / SCSS / GSAP / TAILWIND</title>
+  <title>SHOPPING PARRALAX</title>
 </head>
 
 <body>
   <div id="app">
-    <div class="w-full flex items-center justify-center p-4">
-      <h1 className="text-3xl font-bold underline">
-        FUN ANIMATION TEMPLATE
-      </h1>
+    <div class="w-full flex min-h-screen justify-between items-center overflow-x-hidden">
+      <div class="relative z-10 bg-white flex flex-col pl-[65px] min-h-screen h-full items-start py-14 justify-between w-1/5 max-w-[400px]">
+        <div class="flex flex-col items-center">
+          <div class="font-semibold text-lg">Figma shopping</div>
+          <div class="w-[96px] h-0.5 bg-black "></div>
+        </div>
+
+        <div class="flex flex-col gap-3.5">
+          <div class="font-bold">All</div>
+          <div>SHIRTING</div>
+          <div>OUTERWEAR</div>
+          <div>KNITWEAR</div>
+          <div>TEES&SWEATS</div>
+          <div>TROUSERS</div>
+          <div>ACCESSORIES</div>
+          <div>GIFT CARDS</div>
+          <div>VISIT THE SHOWROOM</div>
+          <div>VFEATURES</div>
+        </div>
+
+        <div>
+          <div class="text-xs">Follow us</div>
+          <div class="flex items-center gap-6 w-[136px] mt-1.5">
+            <div><img src="./public/images/social-network/facebook.png" alt="social-media"></div>
+            <div><img src="./public/images/social-network/instagram.png" alt="social-media"></div>
+            <div><img src="./public/images/social-network/linkledin.png" alt="social-media"></div>
+            <div><img src="./public/images/social-network/youtube.png" alt="social-media"></div>
+          </div>
+        </div>
+      </div>
+      <div class="min-h-screen bg-black justify-center h-full items-end max-w-[50%] grow relative">
+        <div class="bg bg-1 left-0 w-full h-full absolute z-0">
+        </div>
+        <div class="men man-1 h-full pt-10 absolute left-0 z-10 bottom-0 flex justify-center w-full"><img class="h-full" src="./public/images/man-1.png" alt=""></div>
+      
+        <div class="bg bg-2  w-full h-full absolute z-0">
+        </div>
+        <div class="men man-2  h-full pt-10 absolute z-20 bottom-0 flex justify-center w-full"><img class="h-full" src="./public/images/man-2.png" alt=""></div>
+
+        <div class="bg bg-3  w-full h-full absolute z-0">
+        </div>
+        <div class="men man-3  h-full pt-10 absolute z-20 bottom-0 flex justify-center w-full"><img class="h-full" src="./public/images/man-3.png" alt=""></div>
+
+        
+      </div>
+
+
+      <div class=" h-screen relative z-10 bg-white pt-8 pr-10 pl-9 w-1/3 overflow-y-auto">
+        <div class="flex w-full justify-end mb-[80px]">
+          <div class="h-full"> <img class src="./public/images/header.png" alt="menu-icon"></div>
+        </div>
+        <div class="mb-11">
+          <span class="font-bold">New Arrivals</span> / Shirt
+        </div>
+        <div class="relative h-[600px] md:h-[503px] w-full overflow-hidden " >
+          <div class="desc desc-1 absolute -z-0 bg-white ">
+            <h1 class="font-bold text-[32px] lg:text-[50px] lg:leading-[60px] lg xl:text-[58px]  max-w-[450px]">
+              NAWA Knit Polo Navy Stripe
+            </h1>
+            <div class="my-[27px] font-medium">120.00 EUR</div>
+            <div class="max-w-[450px] text-lg">
+              Inspired by vintage football kits, tidy kit 100% cotton knit with logo embroidery at chest. Afters have never looked so good. <br>Multi stripe knit polo of the Umbrochure - a limited edition collection of pieces perfect for on or off the pitch. Percival & Umbro. For the players, for the fans. Pair with trackpant for GOAT look.
+            </div>
+            <button class="w-[165px] h-9 mt-11 mb-9 border border=black">
+              Quick View
+            </button>
+          </div>
+          <div class="desc desc-2 absolute  bg-white -z-0">
+            <h1 class="font-bold text-[32px] lg:text-[50px] lg:leading-[60px] lg xl:text-[58px]  max-w-[450px]">
+              NAWA Knit Polo Navy Stripe
+            </h1>
+            <div class="my-[27px] font-medium">120.00 EUR</div>
+            <div class="max-w-[450px] text-lg">
+              Inspired by vintage football kits, tidy kit 100% cotton knit with logo embroidery at chest. Afters have never looked so good. <br>Multi stripe knit polo of the Umbrochure - a limited edition collection of pieces perfect for on or off the pitch. Percival & Umbro. For the players, for the fans. Pair with trackpant for GOAT look.
+            </div>
+            <button class="w-[165px] h-9 mt-11 mb-9 border border=black">
+              Quick View
+            </button>
+          </div>
+          
+          <div class="desc desc-3 absolute  bg-white -z-0">
+            <h1 class="font-bold text-[32px] lg:text-[50px] lg:leading-[60px] lg xl:text-[58px]  max-w-[450px]">
+              NAWA Knit Polo Navy Stripe
+            </h1>
+            <div class="my-[27px] font-medium">120.00 EUR</div>
+            <div class="max-w-[450px] text-lg">
+              Inspired by vintage football kits, tidy kit 100% cotton knit with logo embroidery at chest. Afters have never looked so good. <br>Multi stripe knit polo of the Umbrochure - a limited edition collection of pieces perfect for on or off the pitch. Percival & Umbro. For the players, for the fans. Pair with trackpant for GOAT look.
+            </div>
+            <button class="w-[165px] h-9 mt-11 mb-9 border border=black">
+              Quick View
+            </button>
+          </div>
+        </div>
+        <div class="flex items-center w-[180px] justify-between h-14">
+          <div class="flex items-center gap-2.5">
+            <div class="prev cursor-pointer">
+              <img src="./public/images/social-network/arrow-circle-left.svg" alt="direction">
+            </div>
+            <div class="h-7 w-0.5 bg-black"> </div>
+            <div class="next cursor-pointer">
+              <img src="./public/images/social-network/arrow-circle-right.svg" alt="direction">
+            </div>
+          </div>
+          <div class="text-2xl">
+            01/10
+          </div>
+        </div>
+        <div class="hidden">
+
+          <h1 class="font-bold text-[32px] max-w-[450px]">
+            NAWA Knit Polo Navy Stripe
+          </h1>
+
+          <div class="my-[27px] font-medium">120.00 EUR</div>
+
+          <div class="mb-[57px]">XS  -  S  -  M  -  L  -  XL  -  XXL</div>
+
+          <div class="flex gap-4 mb-[73px]">
+            <button class="text-sm  bg-black text-white h-[45px] w-[240px]">ADD TO BAG</button>
+            <button class="text-sm bg-[#FFBE16] text-black h-[45px] w-[240px]">Buy with Amazon</button>
+          </div>
+
+          <div class="gap-4 flex justify-between items-start mb-[22px]">
+            <div class=" font-semibold underline ">Description</div>
+            <div>Size</div>
+            <div>Origins</div>
+            <div>Returns</div>
+          </div>
+
+          <div class="text-sm">
+            Inspired by vintage football kits, tidy kit 100% cotton knit with logo embroidery at chest. Afters have never looked so good. <br>Multi stripe knit polo of the Umbrochure - a limited edition collection of pieces perfect for on or off the pitch. Percival & Umbro. For the players, for the fans. Pair with trackpant for GOAT look.
+          </div>
+        </div>
+        
+      </div>
     </div>
   </div>
   <script type="module" src="/main.js"></script>

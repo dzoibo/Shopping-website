@@ -16,3 +16,26 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.bg-1,.bg-2{
+  background-repeat: no-repeat;
+}
+.bg-1{
+  background: url('./public/images/bg-1.png') no-repeat ;
+  background-size: 100% 100%;
+}
+.bg-2{
+  background: url('./public/images/bg-2.png') no-repeat ;
+  background-size: 100% 100%;
+  right: -150%;
+}
+.bg-3{
+  background: url('./public/images/bg-3.png') no-repeat ;
+  background-size: 100% 100%;
+  right: -150%;
+}
+.man-2,.man-3{
+  right: -150%;
+}
+.desc-2,.desc-3{
+  right: -150%
+}
