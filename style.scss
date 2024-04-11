@@ -33,9 +33,19 @@
   background-size: 100% 100%;
   right: -150%;
 }
-.man-2,.man-3{
+.men{
+  max-height: 100vh;
+  overflow-y: hidden;
+
+}
+.man-2,.man-3,.man-4,.man-5,.man-6{
   right: -150%;
 }
 .desc-2,.desc-3{
-  right: -150%
+  right: -150%;
+  max-width: 539px;
+}
+.desc-4{
+  right: -250%;
+  max-width: 539px;
 }

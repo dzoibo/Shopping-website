@@ -10,8 +10,8 @@
 
 <body>
   <div id="app">
-    <div class="w-full flex min-h-screen justify-between items-center overflow-x-hidden">
-      <div class="relative z-10 bg-white flex flex-col pl-[65px] min-h-screen h-full items-start py-14 justify-between w-1/5 max-w-[400px]">
+    <div class=" w-full flex min-h-screen justify-between items-center overflow-x-hidden">
+      <div class="shopping-session relative z-10 bg-white flex flex-col pl-[65px] min-h-screen h-full items-start py-14 justify-between w-1/5 max-w-[400px]">
         <div class="flex flex-col items-center">
           <div class="font-semibold text-lg">Figma shopping</div>
           <div class="w-[96px] h-0.5 bg-black "></div>
@@ -40,24 +40,47 @@
           </div>
         </div>
       </div>
-      <div class="min-h-screen bg-black justify-center h-full items-end max-w-[50%] grow relative">
-        <div class="bg bg-1 left-0 w-full h-full absolute z-0">
+      <div class="background-session h-screen bg-black justify-center items-end max-w-[50%] grow relative">
+        
+        <div class="bg bg-1 left-0 w-full h-full absolute z-0"></div>
+        <div class="men man-1 z-40 h-full pt-10 absolute left-0 bottom-0 flex justify-center w-full"><img class="h-full" src="./public/images/man-1.png" alt=""></div>
+        
+        <div class="bg bg-2  w-full h-full absolute z-0"></div>
+        <div class="men man-2 z-40 h-full pt-10 absolute bottom-0 flex justify-center w-full"><img class="h-full" src="./public/images/man-2.png" alt=""></div>
+
+        <div  class="cursor-pointer opacity-0 back z-50  top-[123px] absolute -left-[140px]">
+          <img src="./public/images/back.png" alt="back">
         </div>
-        <div class="men man-1 h-full pt-10 absolute left-0 z-10 bottom-0 flex justify-center w-full"><img class="h-full" src="./public/images/man-1.png" alt=""></div>
-      
-        <div class="bg bg-2  w-full h-full absolute z-0">
+
+        <div class="arrow-background absolute z-50  right-[100px] opacity-0 flex items-center gap-2.5  bottom-12">
+          <div class=" cursor-pointer background-prev">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.4" d="M11.7725 21.5826C17.1905 21.5826 21.5828 17.1904 21.5828 11.7723C21.5828 6.35426 17.1905 1.96204 11.7725 1.96204C6.35438 1.96204 1.96216 6.35426 1.96216 11.7723C1.96216 17.1904 6.35438 21.5826 11.7725 21.5826Z" fill="#ffffff"/>
+              <path d="M13.0084 15.9712C12.822 15.9712 12.6356 15.9025 12.4884 15.7553L9.02539 12.2923C8.74089 12.0078 8.74089 11.5369 9.02539 11.2524L12.4884 7.78936C12.7729 7.50486 13.2438 7.50486 13.5283 7.78936C13.8128 8.07386 13.8128 8.54476 13.5283 8.82925L10.5852 11.7723L13.5283 14.7154C13.8128 14.9999 13.8128 15.4708 13.5283 15.7553C13.391 15.9025 13.2046 15.9712 13.0084 15.9712Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="h-7 w-0.5 bg-white"> </div>
+          <div class=" cursor-pointer  background-next">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.4" d="M11.9187 21.5826C17.3368 21.5826 21.729 17.1904 21.729 11.7723C21.729 6.35426 17.3368 1.96204 11.9187 1.96204C6.50062 1.96204 2.1084 6.35426 2.1084 11.7723C2.1084 17.1904 6.50062 21.5826 11.9187 21.5826Z" fill="#ffffff"/>
+              <path d="M10.6825 15.9712C10.4961 15.9712 10.3097 15.9025 10.1626 15.7553C9.87809 15.4708 9.87809 14.9999 10.1626 14.7154L13.1057 11.7723L10.1626 8.82925C9.87809 8.54476 9.87809 8.07386 10.1626 7.78936C10.4471 7.50486 10.918 7.50486 11.2025 7.78936L14.6655 11.2524C14.95 11.5369 14.95 12.0078 14.6655 12.2923L11.2025 15.7553C11.0553 15.9025 10.8689 15.9712 10.6825 15.9712Z" fill="white"/>
+            </svg>
+          </div>
         </div>
-        <div class="men man-2  h-full pt-10 absolute z-20 bottom-0 flex justify-center w-full"><img class="h-full" src="./public/images/man-2.png" alt=""></div>
 
         <div class="bg bg-3  w-full h-full absolute z-0">
+            
         </div>
-        <div class="men man-3  h-full pt-10 absolute z-20 bottom-0 flex justify-center w-full"><img class="h-full" src="./public/images/man-3.png" alt=""></div>
+        <div class="men man-3  h-full pt-10 absolute bottom-0 z-40 flex justify-center w-full"><img class="h-full" src="./public/images/man-3.png" alt=""></div>
+        <div class="men man-4  h-full pt-10 absolute bottom-0 z-10 flex justify-center w-full"><img class="h-full" src="./public/images/man-4.png" alt=""></div>
+        <div class="men man-5  h-full pt-10 absolute bottom-0 z-10 flex justify-center w-full"><img class="h-full" src="./public/images/man-5.png" alt=""></div>
+        <div class="men man-6  h-full pt-10 absolute bottom-0 z-10 flex justify-center w-full"><img class="h-full" src="./public/images/man-6.png" alt=""></div>
 
         
       </div>
 
 
-      <div class=" h-screen relative z-10 bg-white pt-8 pr-10 pl-9 w-1/3 overflow-y-auto">
+      <div class="desc-session h-screen relative z-20 bg-white pt-8 pr-10 pl-9 w-1/3 overflow-y-auto">
         <div class="flex w-full justify-end mb-[80px]">
           <div class="h-full"> <img class src="./public/images/header.png" alt="menu-icon"></div>
         </div>
@@ -98,13 +121,39 @@
             <div class="max-w-[450px] text-lg">
               Inspired by vintage football kits, tidy kit 100% cotton knit with logo embroidery at chest. Afters have never looked so good. <br>Multi stripe knit polo of the Umbrochure - a limited edition collection of pieces perfect for on or off the pitch. Percival & Umbro. For the players, for the fans. Pair with trackpant for GOAT look.
             </div>
-            <button class="w-[165px] h-9 mt-11 mb-9 border border=black">
+            <button id="quick-view" class="w-[165px] h-9 mt-11 mb-9 border border=black">
               Quick View
             </button>
           </div>
+          <div class="desc desc-4 absolute  bg-white -z-0">
+
+            <h1 class="font-bold text-[32px] ">
+              NAWA Knit Polo Navy Stripe
+            </h1>
+
+            <div class="my-[27px] font-medium">120.00 EUR</div>
+
+            <div class="mb-[57px]">XS  -  S  -  M  -  L  -  XL  -  XXL</div>
+
+            <div class="flex gap-4 mb-[73px]">
+              <button class="text-sm  bg-black text-white h-[45px] w-[240px]">ADD TO BAG</button>
+              <button class="text-sm bg-[#FFBE16] text-black h-[45px] w-[240px]">Buy with Amazon</button>
+            </div>
+
+            <div class="gap-4 flex justify-between items-start mb-[22px]">
+              <div class=" font-semibold underline ">Description</div>
+              <div>Size</div>
+              <div>Origins</div>
+              <div>Returns</div>
+            </div>
+
+            <div class="text-sm">
+              Inspired by vintage football kits, tidy kit 100% cotton knit with logo embroidery at chest. Afters have never looked so good. <br>Multi stripe knit polo of the Umbrochure - a limited edition collection of pieces perfect for on or off the pitch. Percival & Umbro. For the players, for the fans. Pair with trackpant for GOAT look.
+            </div>
+          </div>
         </div>
         <div class="flex items-center w-[180px] justify-between h-14">
-          <div class="flex items-center gap-2.5">
+          <div class="flex items-center gap-2.5 arrow-container">
             <div class="prev cursor-pointer">
               <img src="./public/images/social-network/arrow-circle-left.svg" alt="direction">
             </div>
@@ -113,34 +162,8 @@
               <img src="./public/images/social-network/arrow-circle-right.svg" alt="direction">
             </div>
           </div>
-          <div class="text-2xl">
+          <div class="text-2xl ten">
             01/10
-          </div>
-        </div>
-        <div class="hidden">
-
-          <h1 class="font-bold text-[32px] max-w-[450px]">
-            NAWA Knit Polo Navy Stripe
-          </h1>
-
-          <div class="my-[27px] font-medium">120.00 EUR</div>
-
-          <div class="mb-[57px]">XS  -  S  -  M  -  L  -  XL  -  XXL</div>
-
-          <div class="flex gap-4 mb-[73px]">
-            <button class="text-sm  bg-black text-white h-[45px] w-[240px]">ADD TO BAG</button>
-            <button class="text-sm bg-[#FFBE16] text-black h-[45px] w-[240px]">Buy with Amazon</button>
-          </div>
-
-          <div class="gap-4 flex justify-between items-start mb-[22px]">
-            <div class=" font-semibold underline ">Description</div>
-            <div>Size</div>
-            <div>Origins</div>
-            <div>Returns</div>
-          </div>
-
-          <div class="text-sm">
-            Inspired by vintage football kits, tidy kit 100% cotton knit with logo embroidery at chest. Afters have never looked so good. <br>Multi stripe knit polo of the Umbrochure - a limited edition collection of pieces perfect for on or off the pitch. Percival & Umbro. For the players, for the fans. Pair with trackpant for GOAT look.
           </div>
         </div>
         
